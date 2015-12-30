@@ -7,7 +7,7 @@ RUN apt-get install -y git
 RUN git clone https://github.com/anonrig/slack-manager
 
 # install from npm
-RUN cd ./slack-manager; npm install slack-manager --save
+RUN npm install slack-manager --save
 
 # install dependencies
 RUN npm install
