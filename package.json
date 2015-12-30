@@ -12,10 +12,10 @@
   },
   "devDependencies": {},
   "engines": {
-    "node": ">= 4.0.0"
+    "nodejs": ">= 0.10.25"
   },
   "scripts": {
-    "start": "node src/index.js",
+    "start": "nodejs src/index.js",
     "test": ""
   },
   "author": "Yagiz Nizipli <yagiznizipli@me.com>, Kaan Kara <h.kaankara@hotmail.com>",
