@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    
+    "test": ""
   },
   "author": "Yagiz Nizipli <yagiznizipli@me.com>, Kaan Kara <h.kaankara@hotmail.com>",
   "license": "MIT"
