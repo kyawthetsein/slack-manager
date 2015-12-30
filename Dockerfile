@@ -8,6 +8,7 @@ RUN git clone https://github.com/anonrig/slack-manager
 
 #install npm
 RUN apt-get -y update && apt-get install -y nodejs-legacy
+RUN apt-get install -y npm
 
 # install from npm
 RUN npm install slack-manager --save
